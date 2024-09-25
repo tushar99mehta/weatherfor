@@ -1,6 +1,6 @@
 // countryListSlice.js
 import { createSlice } from '@reduxjs/toolkit';
-
+const apiKey = import.meta.env. VITE_APP_WEATHER_API_KEY
 const countryListSlice = createSlice({
   name: 'countryList',
   initialState: {
@@ -11,7 +11,7 @@ const countryListSlice = createSlice({
       days: '7',
     },
     headers: {
-      'x-rapidapi-key': '2547c8fd16msh7a053fabd6c2549p10ef73jsn2b6d1329979a',
+      'x-rapidapi-key': apiKey,
       'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com',
     },
   },
