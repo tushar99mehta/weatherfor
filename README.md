@@ -21,7 +21,7 @@ A simple and interactive weather application that allows users to get real-time 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tushar99mehta/weather-app.git
+   git clone https://github.com/tushar99mehta/weatherfor.git
    ```
 2. **Install dependencies** (if applicable):
    ```bash
