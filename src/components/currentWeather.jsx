@@ -101,7 +101,7 @@ function CurrentWeather() {
                     d="M12 2a9.99 9.99 0 00-9 5.25M12 22a9.99 9.99 0 009-5.25m-9 3.75V6m0 0l3 3m-3-3L9 9"
                   />
                 </svg>
-                {data.current.temp_f}°F
+                {data.current.temp_c}°C
               </div>
 
               <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
@@ -151,6 +151,7 @@ function CurrentWeather() {
                 <p>Humidity: {data.current.humidity}%</p>
               </div>
             </div>
+           
           </div>
         )
       )}
