@@ -12,9 +12,9 @@ A simple and interactive weather application that allows users to get real-time 
 
 ## Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (with frameworks/libraries like React if used)
-- **API**: OpenWeatherMap API for weather data
-- **UI Library**: (e.g., Bootstrap, Tailwind CSS if used)
+- **Frontend**: React Js
+- **API**: Rapid Api
+- **UI Library**: Tailwind CSS
 - **Version Control**: Git
 
 ## Setup Instructions
@@ -28,10 +28,10 @@ A simple and interactive weather application that allows users to get real-time 
    npm install
    ```
 3. **Get API key**:
-   - Sign up for a free API key from [OpenWeatherMap](https://openweathermap.org/api).
+   - Sign up for a free API key from [Rapid Api](https://rapidapi.com/weatherapi/api/weatherapi-com).
    - Create a `.env` file in the root directory and add your API key:
      ```bash
-     REACT_APP_WEATHER_API_KEY=your_api_key_here
+     VITE_APP_WEATHER_API_KEY=your_api_key_here
      ```
 
 4. **Run the application:**
