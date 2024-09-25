@@ -31,7 +31,7 @@ function CurrentWeather() {
   };
 
   return (
-    <div className="min-h-screen py-2 flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-teal-400">
+   <>
       <div className="text-center text-white mb-8">
         <h1 className="text-3xl md:text-4xl font-bold">Weather Report</h1>
         <p className="text-base md:text-lg">Select a country to get the current weather</p>
@@ -154,7 +154,7 @@ function CurrentWeather() {
           </div>
         )
       )}
-    </div>
+    </>
   );
 }
 

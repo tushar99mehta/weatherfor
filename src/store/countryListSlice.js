@@ -7,8 +7,8 @@ const countryListSlice = createSlice({
     method: 'GET',
     url: 'https://weatherapi-com.p.rapidapi.com/forecast.json',
     params: {
-      q: 'India',
-      days: '6',
+      q: 'Delhi',
+      days: '7',
     },
     headers: {
       'x-rapidapi-key': '2547c8fd16msh7a053fabd6c2549p10ef73jsn2b6d1329979a',
