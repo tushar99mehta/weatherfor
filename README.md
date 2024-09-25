@@ -23,20 +23,17 @@ A simple and interactive weather application that allows users to get real-time 
    ```bash
    git clone https://github.com/tushar99mehta/weatherfor.git
    ```
-2. **Install dependencies** (if applicable):
-   ```bash
-   npm install
-   ```
-3. **Get API key**:
+   
+2. **Get API key**:
    - Sign up for a free API key from [Rapid Api](https://rapidapi.com/weatherapi/api/weatherapi-com).
    - Create a `.env` file in the root directory and add your API key:
      ```bash
      VITE_APP_WEATHER_API_KEY=your_api_key_here
      ```
 
-4. **Run the application:**
+3. **Run the application:**
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Future Improvements
