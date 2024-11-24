@@ -11,7 +11,7 @@ const countryListSlice = createSlice({
       days: '7',
     },
     headers: {
-      'x-rapidapi-key': 'b506544aa4msh98dd380e2aa6d3cp1b170ejsn9b3579797540',
+      'x-rapidapi-key': apiKey,
       'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com',
     },
   },
